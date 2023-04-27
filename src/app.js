@@ -8,10 +8,11 @@ app.get("/test", (req, res) => {
   const test = "Hi";
   let s = true;
   if (true) {
-    console.log('true')
-  } else {
-    console.log('false')
-  }
+    console.log('true');
+    console.log('true');
+    console.log('true');
+    console.log('true');
+  } 
 
   if (true) {
     console.log('true')
@@ -27,9 +28,10 @@ app.get("/testduplications", (req, res) => {
   const test = "Hi";
   let s = true;
   if (true) {
-    console.log('true')
-  } else {
-    console.log('false')
+    console.log('true');
+    console.log('true');
+    console.log('true');
+    console.log('true');
   }
 
   if (true) {

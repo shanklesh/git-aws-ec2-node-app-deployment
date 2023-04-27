@@ -1,6 +1,9 @@
 .margin {
   margin: 10px 0 0 0;
 }
+.argin {
+  margin: 10px 0 0 0;
+}
 p {
   border-top-style: dotted;
   border-right-style: solid;
