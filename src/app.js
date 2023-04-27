@@ -7,6 +7,7 @@ app.get("/test", (req, res) => {
   console.log("======================");
   const test = "Hi";
   let s = true;
+  const {token} = req.headers.authorization.meta;
   if (true) {
     console.log('true');
     console.log('true');
