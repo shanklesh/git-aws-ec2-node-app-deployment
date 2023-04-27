@@ -1,0 +1,12 @@
+.margin {
+  margin: 10px 0 0 0;
+}
+p {
+  border-top-style: dotted;
+  border-right-style: solid;
+  border-bottom-style: dotted;
+  border-left-style: solid;
+}
+           .bb {
+                        border-radius: 10px 10px 10px 10px;
+}
