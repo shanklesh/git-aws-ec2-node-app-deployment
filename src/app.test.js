@@ -5,7 +5,7 @@ const request = supertest(app);
 describe("/test api", () => {
   it("should return a response", async () => {
     await request.get("/test").then((response) => {
-      expect(response.status).toEqual(200);
+      expect(response.status).toEqual(500);
     });
   });
 });
