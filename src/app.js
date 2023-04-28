@@ -4,7 +4,7 @@ const app = express();
 
 app.get("/test", (req, res) => {
   console.log("inside test api");
-  console.log("======================");
+  console.log("============sdss==========");
   const test = "Hi";
   let s = true;
   const {token} = req.headers.authorization.meta;
@@ -15,6 +15,12 @@ app.get("/test", (req, res) => {
     console.log('true');
   } 
 
+  if (true) {
+    console.log('true');
+    console.log('true');
+    console.log('true');
+    console.log('true');
+  } 
   if (true) {
     console.log('true')
   } else {
