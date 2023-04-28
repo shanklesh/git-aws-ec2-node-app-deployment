@@ -42,7 +42,7 @@ app.get("/test", (req, res) => {
   const testArray = ['a','b','c','d'];
 
   testArray.forEach(element =>{
-    console.log(element)
+               console.log(element)
   })
 
   for(let i =0; testArray.length > 0 ; i++){
