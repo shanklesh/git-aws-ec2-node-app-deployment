@@ -22,6 +22,12 @@ app.get("/test", (req, res) => {
     console.log('true');
   } 
   if (true) {
+    console.log('true');
+    console.log('true');
+    console.log('true');
+    console.log('true');
+  } 
+  if (true) {
     console.log('true')
   } else {
     console.log('false')
