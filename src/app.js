@@ -17,15 +17,15 @@ app.get("/test", (req, res) => {
   if (true) {
               console.log('true');
     console.log('true');
-    
+
                console.log('true');
     console.log('true');
   } 
 
   if (true) {
     console.log('true');
-    console.log('true');
-    console.log('true');
+              console.log('true');
+             console.log('true');
     console.log('true');
   } 
   if (true) {
@@ -38,6 +38,15 @@ app.get("/test", (req, res) => {
     console.log('true')
   } else {
     console.log('false')
+  }
+  const testArray = ['a','b','c','d'];
+
+  testArray.forEach(element =>{
+    console.log(element)
+  })
+
+  for(let i =0; testArray.length > 0 ; i++){
+    console.log('output ',testArray[i])
   }
   res.status(200).send({ message: "test" });
 });
