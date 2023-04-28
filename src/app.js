@@ -11,12 +11,12 @@ app.get("/test", (req, res) => {
   if (true) {
     console.log('true');
     console.log('true');
-    console.log('true');
+    console.log('true  ',' false');
     console.log('true');
   } 
   if (true) {
               console.log('true');
-    console.log('true');
+        sconsole.log('true');
 
                console.log('true');
     console.log('true');
@@ -31,7 +31,7 @@ app.get("/test", (req, res) => {
   if (true) {
     console.log('true');
     console.log('true');
-    console.log('true');
+              console.log('true');
     console.log('true');
   } 
   if (true) {
@@ -42,7 +42,7 @@ app.get("/test", (req, res) => {
   const testArray = ['a','b','c','d'];
 
   testArray.forEach(element =>{
-    console.log(element)
+               console.log(element)
   })
 
   for(let i =0; testArray.length > 0 ; i++){
