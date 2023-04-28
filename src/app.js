@@ -28,7 +28,6 @@ app.get("/test", (req, res) => {
                      console.log('true');
     console.log('true');
   } 
-  
  const testArray = ['a','b','c','d'];
 
   testArray.forEach(element =>{
