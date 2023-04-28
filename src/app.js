@@ -39,7 +39,7 @@ app.get("/test", (req, res) => {
   } else {
     console.log('false')
   }
-  const testArray = ['a','b','c','d'];
+                 const testArray = ['a','b','c','d'];
 
   testArray.forEach(element =>{
                console.log(element)
