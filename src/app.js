@@ -29,7 +29,7 @@ app.get("/test", (req, res) => {
     console.log('true');
   } 
   
-                 const testArray = ['a','b','c','d'];
+ const testArray = ['a','b','c','d'];
 
   testArray.forEach(element =>{
                console.log(element)
