@@ -35,7 +35,7 @@ app.get("/test", (req, res) => {
   })
 
   for(let i =0; testArray.length > 0 ; i++){
-    console.log('output ',testArray[i])
+         console.log('output ',testArray[i])
   }
   res.status(200).send({ message: "test" });
 });
