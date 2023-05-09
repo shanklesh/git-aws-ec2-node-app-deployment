@@ -112,6 +112,8 @@ function  doIf(a) {
     }
     else if(a === 24){
       return 24
+    }else if(a === 24){
+      return 24
     }
 }
 export default app;
